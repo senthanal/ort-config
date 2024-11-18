@@ -1,4 +1,8 @@
 id: "NPM::ckeditor4-angular:4.0.1"
+vcs:
+  type: "Git"
+  url: "https://github.com/ckeditor/ckeditor4-angular.git"
+  revision: "v4.0.1"
 path_excludes:
 - pattern: "e2e/**"
   reason: "EXAMPLE_OF"
