@@ -1,19 +1,15 @@
-id: "NPM::ckeditor4:4.22.0"
-vcs:
-  type: "Git"
-  url: "https://github.com/ckeditor/ckeditor4.git"
-  revision: "v4.22.0"
+id: "NPM::ckeditor4-angular:4.0.1"
 path_excludes:
-- pattern: "samples/**"
+- pattern: "e2e/**"
   reason: "EXAMPLE_OF"
   comment: "This directory contains samples which is not distributed."
 license_finding_curations:
-- path: "ckeditor.js"
+- path: "dist/LICENSE.md"
   reason: "INCORRECT"
   comment: >-
     We use ckeditor.js distribution file with title says "CKEditor 4 Open-Source edition (4.22.* and below) is
     licensed under the terms of any of the following licenses at your choice: 1.GNU General Public License Version 2 or later.
     2.GNU Lesser General Public License Version 2.1 or later. 3.Mozilla Public License Version 1.1 or later." We can conclude
-    that the license is MPL-1.1.
-  concluded_license: "MPL-1.1"
+    that the license is MPL-2.0.
+  concluded_license: "MPL-2.0"
 
