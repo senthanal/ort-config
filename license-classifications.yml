@@ -68,6 +68,10 @@ categorizations:
   categories:
   - "permissive"
   - "include-in-notice-file"
+- id: "0BSD"
+  categories:
+  - "permissive"
+  - "include-in-notice-file"
 - id: "BSD-2-Clause"
   categories:
   - "permissive"
